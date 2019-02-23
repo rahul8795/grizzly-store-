@@ -1,0 +1,60 @@
+.tab-content{
+    margin-top: 50px;
+}
+.form-group .form-control{
+    color: #a8a5a5;
+} 
+.tab-content .panel{
+    background-color: #ebe6e6;
+    padding: 10px;
+}
+.tab-content .panel img{
+    background-color: #a8a5a5;
+}
+.btn-black{
+    background-color: #0d0d0d;
+    color: #d9d9d9;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    margin-top: 260px;
+}
+.btn-gray{
+    background-color:#d9d9d9;
+    color: #1a1a1a;
+    width: 80px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+}
+ul li a{
+    background-color: #d9d9d9;
+    width: 250px;
+    color: #1a1a1a;
+}
+ul li a:hover{
+    background-color: #d9d9d9;
+    width: 250px;
+    color: #1a1a1a;
+}
+
+.btn-listAdd{
+    background-color: #0d0d0d;
+    color: #d9d9d9;
+    width: 120px;
+    border: none;
+    border-radius: 15px;
+    height: 27px;
+    float: right;
+}
+.btn-table{
+    background-color: #d9d9d9;
+    color: #161616;
+    width: 60px;
+    border: none;
+    border-radius: 15px;
+    height: 23px;
+    margin-left: 15px;
+    font-size: 10px;
+}

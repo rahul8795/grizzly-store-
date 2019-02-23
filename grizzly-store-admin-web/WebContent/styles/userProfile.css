@@ -1,0 +1,19 @@
+/* user profile design */
+.row .col-sm-3 .panel{
+    background-color:#f2f2f2;
+}
+.panel  .panel-heading{
+    margin-top: 10px;
+    background-color: #b3b3b3;
+}
+.panel  .panel-heading span{
+    color: white;
+    font-size: 14px;
+}
+.panel  .panel-heading a{
+    color: white;
+    font-size: 13px;
+}
+.panel .panel-body{
+    text-align: center;
+}

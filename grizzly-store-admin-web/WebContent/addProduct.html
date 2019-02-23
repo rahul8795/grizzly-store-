@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <title>Add product</title>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/userProfile.css" rel="stylesheet" type="text/css">
+        <link href="styles/workspace.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </head>
+<body>
+    <div class="navbar">
+        <div class="row">
+            <div class="col-sm-2">
+                <img src="images/logoS.png" alt="No image" width="80px">
+                <strong >STORE</strong>
+            </div>
+            <div class="col-sm-3">
+                <div class="input-group input-group-sm">
+                    <input type="text" class="form-control" placeholder="Search" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4"></div>
+            <div class="col-sm-2">
+                <a href="#"><span class="glyphicon glyphicon-bell"></span></a>&nbsp;&nbsp;
+                <span>Welcome, </span><label name="user">< name></label>
+            </div>
+            <div class="col-sm-1">
+                <input type="submit" name="logout" value="Logout" class="btn">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <span>PROFILE<a href="#" style="float: right">Edit</a></span>
+                    </div>
+                    <div class="panel-body">
+                        <img src="#" height="110px" width="110px" style="background-color:#b3b3b3;"></br>
+                        <h3><strong>User Name</strong></h3></br>
+                        <p>ID</p>
+                        <p>765448</p></br>
+                        <p>Designation</p>
+                        <p>Sr. Admin</p></br>
+                        <p>Office</p>
+                        <p>NYC,NY,USA</p>    
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <ul class="nav nav-tabs">
+                    <li><a href="#pro">PRODUCTS</a></li>
+                    <li><a href="#ven">VENDORS</a></li>
+                </ul>
+                <div class="tab-content">
+                    <div id="pro" class="tab-pane fade in active">                        
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                        <img src="#" height="250px" width="250px" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <form>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <input type="text" name="id" placeholder="Enter Product Id" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <select class="form-control" id="sel">
+                                                    <option>Category</option>
+                                                    <option>Personal Care</option>
+                                                    <option>Laptops</option>
+                                                    <option>Art Suppliers</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="name" placeholder="Name" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="text" name="des" placeholder="Description" class="form-control">
+                                            </div>
+                                            <div class="form-group">
+                                                <input type="number" name="price" placeholder="Price" class="form-control">
+                                            </div>                                               
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <div class="form-group">
+                                                <p style="text-align: right"><input type="submit" class="btn-black" value="Add" name="add"></p>
+                                                <p style="text-align: right"><input type="submit" class="btn-gray" value="Cancel" name="cancel"></p>
+                                            </div>    
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="ven" class="tab-pane fade"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

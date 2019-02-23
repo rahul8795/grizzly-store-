@@ -1,0 +1,23 @@
+
+/*css used in login page */
+
+div.container{
+    margin-top: 60px;
+    width:50%;
+}
+.img-responsive{
+    height: 280px;
+    width: 660px;
+}
+.form{
+    width: 50%;
+}
+.form-group .form-control{
+    background-color:#f2f2f2;
+    color: #666666;
+    border-radius: 15px;
+}
+.form-group .btn{
+    border: 2px solid #f2f2f2;  
+    border-radius: 15px;
+}
